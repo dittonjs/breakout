@@ -1,0 +1,136 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #263238;
+  height: 100%;
+  color: white;
+  min-width: 912px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #5E5E5E;
+}
+
+h4 {
+  text-align: center;
+  margin: 5px 0px;
+}
+
+#main-canvas {
+  width: 100%;
+  background-color: #37474F;
+}
+
+.canvas-container {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+}
+
+.keys {
+  position: absolute;
+  top: 10px;
+  left: -200px;
+  padding: 10px;
+}
+
+.w-key {
+  width: 14px;
+  display: block;
+  margin: auto;
+}
+.key-row {
+  padding-left: 20px;
+}
+.row-key {
+  width: 12px;
+  display: inline-block;;
+  margin: 5px auto;
+}
+
+.hidden {
+  color: transparent;
+}
+
+.key {
+  padding: 10px 14px;
+  color: #5E5E5E;
+  font-size: 20px;
+  background: #EFF0F2;
+  border-radius: 4px;
+  border-top: 1px solid #F5F5F5;
+  box-shadow: inset 0 0 25px #E8E8E8, 0 1px 0 #C3C3C3, 0 2px 0 #C9C9C9, 0 2px 3px #333;
+  text-shadow: 0px 1px 0px #F5F5F5;
+}
+
+.main-menu {
+  position: absolute;
+  width: 200px;
+  top: 10px;
+  right: -220px;
+  padding: 10px;
+}
+
+.start-game {
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  color: #5E5E5E;
+  background: #EFF0F2;
+  border-radius: 4px;
+  border-top: 1px solid #F5F5F5;
+  box-shadow: inset 0 0 25px #E8E8E8, 0 1px 0 #C3C3C3, 0 2px 0 #C9C9C9, 0 2px 3px #333;
+  text-shadow: 0px 1px 0px #F5F5F5;
+}
+
+.credits {
+  text-align: center;
+  font-size: .8em;
+}
+
+.start-modal {
+  padding: 80px 20px;
+  position: absolute;
+  top: 80px;
+  bottom: 40px;
+  right: 60px;
+  left: 60px;
+  background-color: #EFF0F2;
+  box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all .5s ease;
+}
+
+#score {
+  font-size: .8em;
+}
+#timer {
+  float: right;
+  font-size: .8em;
+}
+
+.hide-modal {
+  background-color: rgba(0,0,0,0);
+  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+  color: rgba(0,0,0,0);
+  top: -400px;
+  bottom: 400px;
+}
+
+.restart-message {
+  color: #5E5E5E;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.score {
+  text-align: center;
+}
